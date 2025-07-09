@@ -44,3 +44,16 @@ async function startServer() {
 // خادم Express لإبقاء Render نشطًا
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Aternos AutoStarter Bot is running!');
+});
+
+app.listen(PORT, () => {
+  console.log(`🌐 Web server running on port ${PORT}`);
+});
+
+// تشغيل البوت عند بدء التشغيل
+startServer().catch(error => {
+  console.error('❌ Failed to start server:', error);
+});
