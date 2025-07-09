@@ -1,15 +1,14 @@
 {
   "name": "aternos-autostart-bot",
   "version": "1.0.0",
-  "description": "Bot that auto-starts an Aternos server",
+  "description": "Auto-start bot for Aternos Minecraft server using Puppeteer",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.8",
-    "express": "^4.19.2"
-  }
+    "express": "^4.18.2",
+    "puppeteer": "^22.8.2"
+  },
+  "license": "MIT"
 }
-"license": "MIT"
-
