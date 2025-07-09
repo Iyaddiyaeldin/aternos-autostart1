@@ -1,1 +1,14 @@
+{
+  "name": "aternos-autostart-bot",
+  "version": "1.0.0",
+  "description": "Bot that auto-starts an Aternos server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8",
+    "express": "^4.19.2"
+  }
+}
 
